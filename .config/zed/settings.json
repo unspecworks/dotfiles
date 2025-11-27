@@ -1,0 +1,95 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "git": {
+    "blame": {
+      "show_avatar": false
+    },
+    "inline_blame": {
+      "show_commit_summary": true
+    }
+  },
+  "outline_panel": {
+    "dock": "right"
+  },
+  "active_pane_modifiers": {
+    "border_size": 1.0
+  },
+  "bottom_dock_layout": "contained",
+  "tabs": {
+    "file_icons": false,
+    "git_status": true
+  },
+  "title_bar": {
+    "show_menus": false,
+    "show_branch_icon": true
+  },
+  "prettier": {
+    "allowed": true
+  },
+  "image_viewer": {
+    "unit": "decimal"
+  },
+  "middle_click_paste": false,
+  "indent_guides": {
+    "coloring": "indent_aware"
+  },
+  "soft_wrap": "editor_width",
+  "scrollbar": {
+    "diagnostics": "error"
+  },
+  "hover_popover_delay": 600,
+  "helix_mode": true,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "vim_mode": true,
+  "icon_theme": "JetBrains New UI Icons (Light)",
+  "relative_line_numbers": "enabled",
+  "ui_font_size": 16,
+  "ui_font_family": "JetBrains Mono",
+  "buffer_font_family": "JetBrains Mono",
+  "terminal": {
+    "font_family": "JetBrains Mono"
+  },
+  "minimap": {
+    "show": "always"
+  },
+  "auto_signature_help": false,
+  "inlay_hints": {
+    "enabled": true,
+    "toggle_on_modifiers_press": {
+      "control": true
+    }
+  },
+  "diagnostics": {
+    "button": true,
+    "include_warnings": true,
+    "lsp_pull_diagnostics": {
+      "enabled": true,
+      "debounce_ms": 50
+    },
+    "inline": {
+      "enabled": true,
+      "update_debounce_ms": 150,
+      "padding": 4,
+      "min_column": 0,
+      "max_severity": "info"
+    }
+  },
+  "show_whitespaces": "all",
+  "buffer_font_size": 15,
+  "theme": "JetBrains Light",
+  "vim": {
+    "use_system_clipboard": "never",
+    "use_smartcase_find": true,
+    "highlight_on_yank_duration": 50
+  }
+}
