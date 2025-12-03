@@ -7,6 +7,20 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "lsp_document_colors": "inlay",
+  "restore_on_startup": "last_workspace",
+  "project_panel": {
+    "indent_size": 8.0
+  },
+  "use_smartcase_search": true,
+  "completions": {
+    "lsp_insert_mode": "replace"
+  },
+  "scroll_beyond_last_line": "vertical_scroll_margin",
+  "vertical_scroll_margin": 5.0,
+  "sticky_scroll": {
+    "enabled": true
+  },
   "git": {
     "blame": {
       "show_avatar": false
