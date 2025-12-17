@@ -7,13 +7,54 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "notification_panel": {
+    "button": true
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "preview_tabs": {
+    "enable_preview_file_from_code_navigation": false,
+    "enable_preview_from_multibuffer": false,
+    "enable_preview_from_project_panel": false,
+    "enabled": false
+  },
+  "tab_bar": {
+    "show_tab_bar_buttons": false,
+    "show_nav_history_buttons": false,
+    "show": true
+  },
+  "status_bar": {
+    "active_language_button": true
+  },
+  "debugger": {
+    "button": false
+  },
+  "search": {
+    "button": false
+  },
+  "buffer_line_height": "comfortable",
+  "colorize_brackets": true,
+  "extend_comment_on_newline": false,
+  "use_auto_surround": false,
+  "toolbar": {
+    "breadcrumbs": true
+  },
   "lsp_document_colors": "inlay",
   "restore_on_startup": "last_workspace",
   "project_panel": {
+    "auto_open": {
+      "on_drop": false,
+      "on_paste": false,
+      "on_create": false
+    },
+    "drag_and_drop": false,
+    "sticky_scroll": true,
     "indent_size": 8.0
   },
   "use_smartcase_search": true,
   "completions": {
+    "words": "enabled",
     "lsp_insert_mode": "replace"
   },
   "scroll_beyond_last_line": "vertical_scroll_margin",
@@ -30,6 +71,7 @@
     }
   },
   "outline_panel": {
+    "button": true,
     "dock": "right"
   },
   "active_pane_modifiers": {
@@ -37,10 +79,14 @@
   },
   "bottom_dock_layout": "contained",
   "tabs": {
+    "show_diagnostics": "errors",
     "file_icons": false,
     "git_status": true
   },
   "title_bar": {
+    "show_sign_in": false,
+    "show_user_picture": false,
+    "show_project_items": true,
     "show_menus": false,
     "show_branch_icon": true
   },
@@ -52,10 +98,15 @@
   },
   "middle_click_paste": false,
   "indent_guides": {
+    "enabled": true,
+    "active_line_width": 3,
+    "line_width": 1,
+    "background_coloring": "disabled",
     "coloring": "indent_aware"
   },
   "soft_wrap": "editor_width",
   "scrollbar": {
+    "show": "always",
     "diagnostics": "error"
   },
   "hover_popover_delay": 600,
@@ -74,10 +125,11 @@
     "font_family": "JetBrains Mono"
   },
   "minimap": {
-    "show": "always"
+    "show": "never"
   },
-  "auto_signature_help": false,
+  "auto_signature_help": true,
   "inlay_hints": {
+    "show_background": true,
     "enabled": true,
     "toggle_on_modifiers_press": {
       "control": true
@@ -94,12 +146,12 @@
       "enabled": true,
       "update_debounce_ms": 150,
       "padding": 4,
-      "min_column": 0,
+      "min_column": 3,
       "max_severity": "info"
     }
   },
   "show_whitespaces": "all",
-  "buffer_font_size": 15,
+  "buffer_font_size": 15.0,
   "theme": "JetBrains Light",
   "vim": {
     "use_system_clipboard": "never",
