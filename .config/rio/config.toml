@@ -375,4 +375,3 @@ extras = [{ family = "JetBrains Mono" }]
 # [developer]
 # log-level = "OFF"
 # enable-log-file = false
-
