@@ -1,11 +1,8 @@
-
 theme = "kanagawa"
 
 [editor]
 line-number="relative"
 cursorline=true
-
-#trim-trailing-whitepsace=true
 
 [editor.lsp]
 display-inlay-hints=true
@@ -28,4 +25,3 @@ skip-levels=1
 
 [editor.file-picker]
 hidden=false
-
