@@ -42,5 +42,3 @@ path+=("$GOOGLE_CLOUD_SDK_PATH/bin")
 source "$HOME/.cargo/env"
 
 export PATH
-
-
