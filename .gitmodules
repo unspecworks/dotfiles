@@ -1,3 +1,6 @@
 [submodule "helix.vim"]
 	path = helix.vim
 	url = https://github.com/chtenb/helix.vim
+[submodule ".zsh-custom/plugins/zsh-helix-mode"]
+	path = .zsh-custom/plugins/zsh-helix-mode
+	url = https://github.com/Multirious/zsh-helix-mode

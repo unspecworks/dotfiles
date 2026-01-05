@@ -8,8 +8,8 @@ zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 HIST_STAMPS="yyyy-mm-dd"
 
-# ZSH_CUSTOM=/path/to/new-custom-folder
-# plugins=(git zsh-vi-mode)
+ZSH_CUSTOM="$HOME/.zsh-custom"
+plugins=(git zsh-helix-mode)
 source $ZSH/oh-my-zsh.sh
 
 # export LANG=en_US.UTF-8
