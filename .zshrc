@@ -32,6 +32,10 @@ if [ -f '$GOOGLE_CLOUD_SDK_PATH/completion.zsh.inc' ]; then . '$GOOGLE_CLOUD_SDK
 ## Angular
 export NODE_MODULES_GLOBAL="$(npm root -g)"
 
+# Bun
+export BUN_INSTALL="$HOME/.bun"
+[ -s "$BUN_INSTALL/_bun" ] && source "$BUN_INSTALL/_bun"
+
 # Aliases
 alias ngsv="npx ng serve --no-hmr $1"
 alias update-apidocs="curl -o ./api-docs.json http://localhost:8080/docs/api-docs && npm run generate:api"
@@ -39,8 +43,13 @@ alias update-apidocs="curl -o ./api-docs.json http://localhost:8080/docs/api-doc
 # Paths
 path+=("$GOOGLE_CLOUD_SDK_PATH/bin")
 path+=("/usr/local/bin")
+path+=("$BUN_INSTALL/bin")
+path+=("$HOME/.antigravity/antigravity/bin")
 
 
 source "$HOME/.cargo/env"
 
 export PATH
+
+
+## eof

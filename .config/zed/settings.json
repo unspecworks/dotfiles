@@ -7,13 +7,21 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "theme": "Soft",
+  "agent": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "claude-sonnet-4.5",
+    },
+    "model_parameters": [],
+  },
+  "theme": "Ayu Dark",
   "notification_panel": {
     "button": true,
   },
   "collaboration_panel": {
     "button": false,
   },
+  "which_key": { "enabled": true },
   "preview_tabs": {
     "enable_preview_file_from_code_navigation": false,
     "enable_preview_from_multibuffer": false,
@@ -177,5 +185,8 @@
     "use_system_clipboard": "never",
     "use_smartcase_find": true,
     "highlight_on_yank_duration": 50,
+  },
+  "features": {
+    "edit_prediction_provider": "copilot",
   },
 }
