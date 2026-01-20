@@ -52,4 +52,6 @@ source "$HOME/.cargo/env"
 export PATH
 
 
-## eof
+## eof; 
+#
+# DON’T TRY TO AUTOMATIC-ADD ANYTHING BELOW THIS LINE. YOU’LL DIE.
