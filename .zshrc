@@ -38,7 +38,7 @@ export BUN_INSTALL="$HOME/.bun"
 
 # Aliases
 alias ngsv="npx ng serve --no-hmr $1"
-alias update-apidocs="curl -o ./api-docs.json http://localhost:8080/docs/api-docs && npm run generate:api"
+alias update-apidocs="curl -o ./api-docs.json http://localhost:8080/docs/api-docs && npm run generate:orval"
 
 # Paths
 path+=("$GOOGLE_CLOUD_SDK_PATH/bin")
