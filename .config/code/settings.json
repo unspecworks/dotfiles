@@ -360,6 +360,10 @@
           "text": "Goto next window",
           "command": "workbench.action.nextEditor",
         },
+        "W": {
+          "text": "Goto previous window",
+          "command": "workbench.action.previousEditor",
+        },
         "s": {
           "text": "Horizontal bottom split",
           "command": "workbench.action.splitEditorDown",
@@ -469,4 +473,9 @@
       },
     },
   },
+  "workbench.iconTheme": "ayu",
+  "workbench.editor.enablePreview": false,
+  "diffEditor.renderSideBySide": true,
+  "diffEditor.experimental.showMoves": true,
+  "diffEditor.hideUnchangedRegions.enabled": true,
 }
